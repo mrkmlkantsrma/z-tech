@@ -853,6 +853,19 @@ img.mob-popup
 	display:none;
 }
 
+a.nav-link.account {
+    background: linear-gradient(60.89deg, #2849A4 -19.64%, #27397C 1.79%, #1A2246 25.64%, #161C38 44.34%);
+    border: 2px solid #333333;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 70px;
+    padding: 6px 15px !important;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Poppins';
+}
+
 @media only screen and (max-width:767px)
 {
 	nav.navbar.navbar-expand-lg {
