@@ -872,9 +872,25 @@ a.nav-link.account {
 	    padding: 10px 0px;
 	}
 	
+a.nav-link.account {
+    background: linear-gradient(60.89deg, #2849A4 -19.64%, #27397C 1.79%, #1A2246 25.64%, #161C38 44.34%);
+    border: 2px solid #333333;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto;
+    padding: 6px 6px !important;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: 'Poppins';
+    text-align: center;
+    width: 50%;
+}	
+	
 .modal-body img.mob-popup {
     margin-top: 0;
     display: block;
+    margin-bottom: 25px;
 }
 .pop-left {
     display: none;

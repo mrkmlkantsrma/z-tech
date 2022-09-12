@@ -9,28 +9,27 @@
 });
 
 
-$(".btn-get-service").on('click', function() {
-	$(".popup-service").show();
+
+
+jQuery(".create-acc, .btn-sign-up, .account").click(function(){
+jQuery(".sign-in").hide();
+jQuery(".sign-in").removeClass("show");
+       jQuery(".sign-up").show();
+jQuery(".sign-up").addClass("show");
+});
+jQuery(".login").click(function(){
+jQuery(".sign-in").addClass("show");
+    jQuery(".sign-up").hide();
+jQuery(".sign-up").removeClass("show");
+jQuery(".sign-in").show();
 });
 
-$(".btn-get-homes").on('click', function() {
-	$(".homes").show();
+
+jQuery(".btn-close").click(function(){
+jQuery(".modal").hide();
+jQuery(".modal-backdrop").hide();
+jQuery(".sign-in").removeClass("show");
 });
-
-$(".btn-get-hospital").on('click', function() {
-	$(".hospital").show();
-});
-
-$(".btn-get-clinics").on('click', function() {
-	$(".clinics").show();
-});
-
-
-
-	$(".cross").on('click', function() {
-	$(".popup-service, .homes, .hospital, .clinics").hide();
-});
-
 
 
 
